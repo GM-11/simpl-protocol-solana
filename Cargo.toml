@@ -7,6 +7,8 @@ edition = "2021"
 axum = "0.7.9"
 base64 = "0.22.1"
 bincode = "1.3.3"
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = "1.0.216"
 solana-client = "2.1.7"
 solana-sdk = "2.1.7"
 tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
